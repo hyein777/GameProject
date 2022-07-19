@@ -1,0 +1,122 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+li {list-style: none;}
+a {text-decoration: none;}
+
+/* 폰트 */
+/* 저스트버블 */
+@font-face{
+	font-family: 'JustBubble';
+	src: url("../font/JustBubble.ttf") format("truetype"); 
+}
+/* 교보문고손글씨2019 */
+@font-face{
+	font-family: 'Kyobo Handwriting 2019';
+	src: url("../font/Kyobo\ Handwriting\ 2019.ttf") format("truetype"); 
+}
+
+
+#wrap{
+    width: 1280px;
+    height: 720px;
+    background: url(../img/bg_blur.svg) center center ;
+    background-size: contain;
+    position: relative;
+}
+
+#highscore{
+    position: absolute;
+    top:54px;
+    left: 380px;
+    z-index: 1;
+}
+
+#leftGarland{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#rightGarland{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.yellowBox{
+    position: absolute;
+    width: 621px;
+    height: 455px;
+    background-color: #FAC73D;
+    border-radius: 57px;
+    top: 172px;
+    left: 330px ;
+}
+
+.gameover{
+    position: absolute;
+    top: 44px;
+    left: 73px ;
+}
+
+.myScore{
+    position: absolute;
+    width: 440px;
+    height: 138px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    top:152px;
+    left: 87px;
+}
+
+.scoreBox{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+#scoreBoxText{
+    width: 300px;
+    height: 105px;
+    position: absolute;
+    top:-2px;
+    left: 110px;
+}
+
+.Lastscore{
+    font-family: 'Kyobo Handwriting 2019';
+    font-size: 44px;
+    color: red;
+}
+.score{
+    font-family: 'JustBubble';
+    font-size: 45px;
+}
+.score span{
+    font-family: 'Kyobo Handwriting 2019';
+    font-size: 27px;
+}
+
+.bt{
+    position: absolute;
+    top:306px;
+    left: 87px;
+}
+
+
+#closebt {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+#closebt a{
+    font-family: 'Kyobo Handwriting 2019';
+    font-size: 39px;
+    color: aliceblue;
+
+}
+#closebt img{
+    position: absolute;
+    transform: rotate(180deg);
+}

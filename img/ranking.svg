@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143.783" height="121.836" viewBox="0 0 143.783 121.836">
+  <defs>
+    <filter id="패스_77" x="0" y="0" width="143.783" height="121.836" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_79" data-name="그룹 79" transform="translate(10.075 7.043)">
+    <g transform="matrix(1, 0, 0, 1, -10.07, -7.04)" filter="url(#패스_77)">
+      <path id="패스_77-2" data-name="패스 77" d="M92.533,46.287A61.663,61.663,0,0,1,77.817,55.3a11.835,11.835,0,0,1-4.948,1.258c-6.59-.185-8.232-8.528-11.061-14.188C57.3,33.352,45.19,29,35.081,31.7S17.34,43.155,14.943,52.872,14.911,73,19.953,81.757c2.123,3.686,4.736,7.2,5.907,11.252,2.069,7.153-.209,16.02,5.39,21.19C34.3,117.013,38.8,117.728,43,118.31c13.769,1.9,28.012,3.783,41.42.247,8.392-2.211,16.014-6.446,23.417-10.8,9.478-5.579,19.12-11.773,24.636-20.978,7.576-12.648,5.871-28.362,2.638-42.589-.542-2.384-1.312-5.02-3.524-6.257-5.035-2.816-12.973,3.829-16.643-.489a8.439,8.439,0,0,1-1.423-3.949c-1.734-8.484-10.23-16.974-18.848-14.211-5.152,1.653-8.324,6.947-8.537,12.11s2.035,10.156,4.921,14.536" transform="translate(-3.93 -11.71)" fill="#0bfff3" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <text id="랭킹보기" transform="translate(30.94 67.291)" font-size="23" font-family="KyoboHandwriting2019, 'Kyobo Handwriting \32 019'"><tspan x="0" y="0">랭킹보기</tspan></text>
+  </g>
+</svg>
